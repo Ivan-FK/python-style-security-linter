@@ -38,17 +38,17 @@ test_files     # Example files for manual testing
 
 ## Implemented checks:
 
-L001 - Line exceeds maximum recommended length (79 characters default)
-L002 - Trailing whitespace
-L003 - Missing newline at the end of the file
-L004 - Multiple consecutive blank lines (default 3+)
+L001 - Line exceeds maximum recommended length (79 characters default)  
+L002 - Trailing whitespace  
+L003 - Missing newline at the end of the file  
+L004 - Multiple consecutive blank lines (default 3+)  
 
-P001 - Syntax error detected during AST parsing
+P001 - Syntax error detected during AST parsing  
 
-S001 - Use of eval()
-S002 - Use of exec()
-S003 - Use of os.system()
-S004 - Use of subprocess calls with shell=True
+S001 - Use of eval()  
+S002 - Use of exec()  
+S003 - Use of os.system()  
+S004 - Use of subprocess calls with shell=True  
 
 
 ## Requirements:
@@ -65,7 +65,7 @@ No external dependencies required at this stage.
 ```text
 python linter.py <path>
 ```
-where <path> can be:
+where ```<path>``` can be:
 
 - A single Python file
 - Multiple files
