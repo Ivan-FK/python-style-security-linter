@@ -28,12 +28,13 @@ This project was created to practice:
 
 ## Project structure:
 
+```text
 linter.py      # CLI entry point, file scanning, report saving
 rules.py       # Style, syntax and security lint rules implementation
 models.py      # Dataclasses for lint issues and per-file results
 formatters.py  # Text and json output formatting
 test_files     # Example files for manual testing
-
+```
 
 ## Implemented checks:
 
