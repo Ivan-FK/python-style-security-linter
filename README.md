@@ -2,6 +2,7 @@
 
 This is a lightweight Python command-line linter for style, syntax and security checks using both line-based and AST-based analysis.
 
+
 ## Project goals:
 
 This project was created to practice:
@@ -33,6 +34,7 @@ models.py      # Dataclasses for lint issues and per-file results
 formatters.py  # Text and json output formatting
 test_files     # Example files for manual testing
 
+
 ## Implemented checks:
 
 L001 - Line exceeds maximum recommended length (79 characters default)
@@ -47,24 +49,27 @@ S002 - Use of exec()
 S003 - Use of os.system()
 S004 - Use of subprocess calls with shell=True
 
+
 ## Requirements:
 
 Python 3.x
 
 No external dependencies required at this stage.
 
+
 ## Installation and usage:
 
 1. Clone the repository
 2. Run the linter:
-
+```text
 python linter.py <path>
-
+```
 where <path> can be:
 
 - A single Python file
 - Multiple files
 - One or more directories
+
 
 ### Example input:
 
@@ -104,6 +109,8 @@ L004 Line 8, Column 1: Too many consecutive blank lines (5 > 2)
 L001 Line 10, Column 80: Line too long (111 > 79)
 L003 Line 10, Column 112: Missing newline at the end of the file
 ```
+
+
 ## Possible future improvements:
 
 - Add automated tests with pytest
